@@ -23,5 +23,8 @@ public class ExampleInstrumentedTest {
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
 
         assertEquals("com.example.locationcounter", appContext.getPackageName());
+       int i =0;
+       int j = 0;
+
     }
 }
